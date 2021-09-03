@@ -40,4 +40,4 @@ app.get("/root", async (req, res) => res.json({ Status: "Sucess" }));
 app.use("/user", User);
 app.use("/info", Info);
 
-app.listen(port, () => console.log("Server running..."));
+app.listen(port, () => console.log("Server running...."));
