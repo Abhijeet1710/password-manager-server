@@ -18,7 +18,7 @@ app.use(express.json());
 
 // cors options
 const corsOptions ={
-    origin:'http://localhost:4000', 
+    origin:'https://passwordmanager-api.herokuapp.com', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
