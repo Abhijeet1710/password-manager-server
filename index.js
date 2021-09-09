@@ -18,7 +18,7 @@ app.use(express.json());
 
 // cors options
 const corsOptions ={
-    origin:'https://passwordmanager-api.herokuapp.com', 
+    origin:'https://passwormanager-web.netlify.app', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
